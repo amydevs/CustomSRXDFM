@@ -1,4 +1,7 @@
 plugin/bin/*
 plugin/obj/*
+plugin/Libs
 plugin/Libs/*
+plugin/Spin Rhythm
+plugin/Spin Rhythm/*
 server/node_modules/*

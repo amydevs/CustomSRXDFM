@@ -152,6 +152,7 @@ for (let i = 0; i < 2; i++) {
         });
 
         socket.on("emotein", (d) => {
+            console.log("help")
             handleEmote(socket, d, stationArray[i]);
         });
 

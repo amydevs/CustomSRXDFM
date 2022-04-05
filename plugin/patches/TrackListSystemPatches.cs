@@ -20,7 +20,7 @@ namespace CustomSRXDFM.Patches
     [HarmonyPostfix]
     static void TrackListSystem_getPrimaryTrackList_Postfix(TrackListSystem __instance, ref TrackList __result)
     {
-      __result = __instance.CustomTrackList;
+      __result = __insta6nce.CustomTrackList;
     }
 
     [HarmonyPatch(typeof(TrackListSystem))]

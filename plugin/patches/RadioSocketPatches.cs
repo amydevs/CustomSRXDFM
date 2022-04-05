@@ -22,5 +22,13 @@ namespace CustomSRXDFM.Patches
     {
       __result = "http://127.0.0.1:3000";
     }
+
+    [HarmonyPatch(typeof(RadioSocket))]
+    [HarmonyPatch("UpdateWantedHandle")]
+    [HarmonyPrefix]
+    static void RadioSocket_UpdateWantedHandle_Prefix(ref RadioSocket.DesiredSong __0)
+    {
+      Console.WriteLine(__0.name);
+    }
   }
 }

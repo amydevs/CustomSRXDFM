@@ -17,6 +17,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="0Harmony, Culture=neutral, PublicKeyToken=null">
+      <HintPath>Spin Rhythm\BepInEx\core\0Harmony.dll</HintPath>
       <HintPath>Libs\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
